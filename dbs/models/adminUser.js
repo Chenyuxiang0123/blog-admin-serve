@@ -12,3 +12,4 @@ const schema = new mongoose.Schema({
     default: 'http://locahost:5000/images/404.png'
   }
 })
+module.exports = mongoose.model('AdminUser',schema)

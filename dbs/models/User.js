@@ -1,9 +1,5 @@
 const mongoose = require('mongoose')
 const schema = new mongoose.Schema({
-  time: {
-    type: Date,
-    default: new Date()
-  },
   name: String,
   email: String,
   avatar: String,
