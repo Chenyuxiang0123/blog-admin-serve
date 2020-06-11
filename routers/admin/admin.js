@@ -1,5 +1,5 @@
 const router = require('koa-router')({
-  prefix: '/admin'
+  prefix: '/api/admin'
 })
 
 //注册user路由
