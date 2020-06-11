@@ -6,13 +6,13 @@ let transporter = nodemailer.createTransport({
     port: 465,      //端口号
     secure: true, 
     auth: {
-      user: '1013930927@qq.com', // 发送方的邮箱地址（自己的）
-      pass: "evxejqbggehhbeee" // mtp 验证码
+      user: '10xxx0927@qq.com', // 发送方的邮箱地址（自己的）
+      pass: "xxxxbeee" // mtp 验证码
     }
 });
 function sendEmail(mail,code) {
   let mailObj = {
-    from: '1013930927@qq.com',
+    from: '10xxx927@qq.com',
     to: mail,
     subject: '注册验证码',  
     text: `您的验证码为：${code},有效时间15分钟,请妥善保管！` ,
